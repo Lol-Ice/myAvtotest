@@ -12,12 +12,13 @@ repositories {
     mavenCentral()
 }
 
-dependencies {implementation("junit:junit:4.13.1")
+dependencies {
+    implementation("junit:junit:4.13.1")
     testImplementation(kotlin("test"))
 }
 
 tasks.test {
-    useJUnitPlatform()
+    useJUnit()
 }
 
 tasks.withType<KotlinCompile> {
