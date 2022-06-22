@@ -33,7 +33,7 @@ class MainKtTest {
             minCommission = minCommissionT,
         )
 
-        assertEquals("При переводе: 100.0 \nКомиссия составит: 35.0 \nСумма к зачислению: 5.0", result)
+        assertEquals("При переводе: 100.0 \nКомиссия составит: 35.0 \nСумма к зачислению: 65.0", result)
 
     }
 
